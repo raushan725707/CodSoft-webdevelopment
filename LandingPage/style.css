@@ -1,0 +1,143 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.twoheader {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+
+
+.firsttest1 {
+    height: 40px;
+    background-color: rgb(230, 76, 102);
+    display: flex;
+    padding-left: 30px;
+    justify-content: space-between;
+}
+
+.firsttest1 hr {
+    width: 0.2rem;
+
+}
+
+
+.test {
+    height: 50px;
+    outline-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: azure;
+}
+
+.test1 {
+    display: flex;
+    align-items: center;
+}
+
+.test2 {
+    display: flex;
+    align-items: center;
+}
+
+.test2 a:not(:last-child) {
+    margin-right: 10px;
+    /* Adjust the value as per your desired gap size between the anchor tags */
+}
+
+.body1 {
+    position: relative;
+
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.text {
+    position: absolute;
+    top: 185px;
+    left: 88px;
+
+}
+
+.maintext {
+    position: absolute;
+    top: 200px;
+    bottom: 60px
+}
+
+
+.maintext1 {
+    position: absolute;
+    top: 250px;
+    bottom: 60px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.third11 {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(196, 30, 58);
+
+}
+
+.img1 {
+    bottom: auto;
+}
+
+.fourth {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.last {
+    width: 400px;
+    /* Set the width of the first div */
+    height: 200px;
+    /* Set the height of the first div */
+    border: 1px solid black;
+    /* Add a border for visual clarity */
+    display: flex;
+    /* Use flexbox to arrange the inner divs horizontally */
+}
+
+.inner {
+    flex: 1;
+    /* Make each inner div take an equal amount of space */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    background-size: cover;
+    /* Scale the image to cover the entire div */
+    background-position: center;
+    /* Center the image within the div */
+}
+
+/* Set background images for each inner div */
+.inner {
+    position: relative;
+}
+
+.ptag {
+    position: absolute;
+    top: 180px;
+
+}
