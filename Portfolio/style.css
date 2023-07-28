@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.first{
+    display: flex;
+   background-color: antiquewhite;
+   height: 50px;
+
+}
+
+.first a{
+    margin: 15px;
+    float: right;
+}
+
+.second{
+    display: flex;
+    margin-top: 15px;
+}
+.second1{
+    flex-grow: 1;
+    text-align: center;
+    border: 1px solid black;
+}
